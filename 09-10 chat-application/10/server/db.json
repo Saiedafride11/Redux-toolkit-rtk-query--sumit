@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "email": "ridoy@gmail.com",
+      "password": "$2a$10$mOsn16Les4XKpkwOf8/WM.MKMQNx8fvJkSqhLJmI9hp2IX2kaDGWS",
+      "name": "ridoy",
+      "id": 1
+    },
+    {
+      "email": "afride@gmail.com",
+      "password": "$2a$10$CRH3QLXy/ialss1KtIOrqu0kPtQe2RfAZ/akjSlgubQbh62YzgNHy",
+      "name": "afride",
+      "id": 2
+    }
+  ],
+  "conversations": [
+    {
+      "participants": "ridoy@gmail.com-afride@gmail.com",
+      "users": [
+        {
+          "email": "ridoy@gmail.com",
+          "name": "ridoy",
+          "id": 1
+        },
+        {
+          "email": "afride@gmail.com",
+          "name": "afride",
+          "id": 2
+        }
+      ],
+      "message": "hi",
+      "timestamp": 1674367350840,
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "afride@gmail.com",
+        "name": "afride",
+        "id": 2
+      },
+      "receiver": {
+        "email": "ridoy@gmail.com",
+        "password": "$2a$10$mOsn16Les4XKpkwOf8/WM.MKMQNx8fvJkSqhLJmI9hp2IX2kaDGWS",
+        "name": "ridoy",
+        "id": 1
+      },
+      "message": "Hello",
+      "timestamp": 1674367316104,
+      "id": 1
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "afride@gmail.com",
+        "name": "afride",
+        "id": 2
+      },
+      "receiver": {
+        "email": "ridoy@gmail.com",
+        "password": "$2a$10$mOsn16Les4XKpkwOf8/WM.MKMQNx8fvJkSqhLJmI9hp2IX2kaDGWS",
+        "name": "ridoy",
+        "id": 1
+      },
+      "message": "hi",
+      "timestamp": 1674367326984,
+      "id": 2
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "afride@gmail.com",
+        "name": "afride",
+        "id": 2
+      },
+      "receiver": {
+        "email": "ridoy@gmail.com",
+        "password": "$2a$10$mOsn16Les4XKpkwOf8/WM.MKMQNx8fvJkSqhLJmI9hp2IX2kaDGWS",
+        "name": "ridoy",
+        "id": 1
+      },
+      "message": "who are you?",
+      "timestamp": 1674367333936,
+      "id": 3
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "ridoy@gmail.com",
+        "name": "ridoy",
+        "id": 1
+      },
+      "receiver": {
+        "email": "afride@gmail.com",
+        "name": "afride",
+        "id": 2
+      },
+      "message": "hi",
+      "timestamp": 1674367350840,
+      "id": 4
+    }
+  ]
+}
